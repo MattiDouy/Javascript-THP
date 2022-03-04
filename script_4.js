@@ -1,3 +1,5 @@
+function script_4() {
+
 const entrepreneurs = [
   { first: 'Steve', last: 'Jobs', year: 1955 },
   { first: 'Oprah', last: 'Winfrey', year: 1954 },
@@ -43,3 +45,5 @@ console.log(Age);
 console.log("Par ordre alphabétique du nom de famille.")
 let lastName = entrepreneurs.map(({last}) => `\n${last}`).sort();
 console.log(`${lastName}`);
+
+}
